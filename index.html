@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stalking.win - Privacy Fucker</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body onload="showTab('tab1')">
+    <div class="loader-wrapper" id="loader-wrapper">
+        <div class="loader"></div>
+        <div class="loader-text">stalking.win</div>
+    </div>
+    <header>
+        <h1>stalking.win</h1>
+        <p>Fuck The Privacy!</p>
+    </header>
+    <nav>
+        <a href="#webcam1" onclick="showTab('tab1')">Pincio</a>
+        <a href="#webcam2" onclick="showTab('tab2')">Piazza</a>
+        <a href="#webcam3" onclick="showTab('tab3')">Lido</a>
+    </nav>
+    <div class="container">
+        <div id="tab1" class="tab-content">
+            <div class="webcam">
+                <h2>Pincio</h2>
+                <iframe src="http://example.com/webcam1" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div id="tab2" class="tab-content">
+            <div class="webcam">
+                <h2>Piazza</h2>
+                <iframe src="http://example.com/webcam2" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div id="tab3" class="tab-content">
+            <div class="webcam">
+                <h2>Lido</h2>
+                <iframe src="http://example.com/webcam3" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 stalking.win</p>
+    </footer>
+</body>
+</html>
